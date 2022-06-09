@@ -42,6 +42,9 @@ void SetupCommands(lilParser& parser)
     parser.addCmd(SET_SEQUENCE,"sequence");
     parser.addCmd(SET_SEQUENCE,"seq");
 
+    parser.addCmd(CAPTURE,"capture");
+    parser.addCmd(CAPTURE,"cap");
+
     parser.addCmd(CAPTURE_SEQUENCE,"capture_sequence");
     parser.addCmd(CAPTURE_SEQUENCE,"cap_seq");
 

@@ -8,14 +8,14 @@ enum Command
 {
     NONE,
     HELP,
-    SET_SHUTTER,    // Set shutter speed. Single arg
-    TIME_PREFOCUS,  // Set prefoc time. Single arg
-    TIME_FOCUS,     // Set focus time. Single arg
-    TIME_AFTER,     // Set after time. Single arg
+    SET_SHUTTER,  
+    TIME_PREFOCUS, 
+    TIME_FOCUS,     
+    TIME_AFTER,     
     TIME_OVERLAP,
-    SET_SEQUENCE,   // Set a sequence of colors to use. 2-N args
-    CAPTURE,        // Capture with a single color. Takes color # as arg
-    CAPTURE_SEQUENCE,    // Capture the set sequence
+    SET_SEQUENCE, ///
+    CAPTURE,  
+    CAPTURE_SEQUENCE, ///
     FOCUS,
     LIGHT,
     DARK
