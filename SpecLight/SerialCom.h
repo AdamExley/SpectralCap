@@ -3,7 +3,6 @@
 
 #include "lilParser.h"
 
-
 enum Command
 {
     NONE,
@@ -13,9 +12,9 @@ enum Command
     TIME_FOCUS,     
     TIME_AFTER,     
     TIME_OVERLAP,
-    SET_SEQUENCE, ///
+    SET_SEQUENCE,
     CAPTURE,  
-    CAPTURE_SEQUENCE, ///
+    CAPTURE_SEQUENCE,
     FOCUS,
     LIGHT,
     DARK
@@ -24,13 +23,6 @@ enum Command
 
 void DisplayHelp();
 void SetupCommands(lilParser& parser);
-
-
-
-
-
-
-
 
 
 #endif

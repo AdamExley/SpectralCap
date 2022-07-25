@@ -4,10 +4,6 @@
 #include "Arduino.h"
 #include "Adafruit_DotStar.h"
 
-
-// Adafruit_DotStar strip(1, 41, 40, DOTSTAR_BRG);
-
-
 class StatusLED
 {
     private:
@@ -23,13 +19,7 @@ class StatusLED
         void Blue();
         void Orange();
         void Purple();
-
-
-
-
 };
-
-
 
 
 #endif

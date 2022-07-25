@@ -5,7 +5,7 @@
 void Controller::Capture(int led_id)
 {
     statusled.Blue();
-    // Other code here
+
     Light(led_id);
     #ifdef DEBUG
     Serial.println("DEBUG::Staring Capture with LED " + String(led_id));
